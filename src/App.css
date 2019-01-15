@@ -30,3 +30,37 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav {
+  box-sizing: border-box;
+  height: 9%;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.home {
+  box-sizing: border-box;
+  height: 1200px;
+  width: 100%;
+  background-color: red;
+}
+
+.backgroundPic {
+  height: 70%;
+  width: 100%;
+  background-image: url("https://us.coca-cola.com/content/dam/coke2016/jan-homepage-refresh/januaryHomepageRefresh_DesktopHero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
