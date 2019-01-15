@@ -6,8 +6,9 @@ class Home extends Component {
   }
   render() {
     return (
-      <div className="home">
+      <div>
         <div className="backgroundPic">HELLO</div>
+        <div className='footer'></div>
       </div>
     );
   }
